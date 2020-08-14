@@ -1,6 +1,6 @@
 .\" Manpage for discovery.
 .\" Contact santiago.espinosa14@pm.me to correct errors or typos.
-.TH man 8 "12 Aug 2020" "0.3.8-p" "discovery"
+.TH man 8 "12 Aug 2020" "0.3.9-p" "discovery"
 .SH NAME
 discovery \- Discover online hosts using nmap and ike-scan
 .SH SYNOPSIS
@@ -18,7 +18,7 @@ Space-separated (or newline-separated in the case of stdin input) list of IPs, C
 .IP "-r --dry-run"
 Dry run that displays which hosts would be scanned. Useful if client provides a list with non-valid domains or CIDR range.
 
-.IP -"-i --infP </path/to/file>"
+.IP -"-i </path/to/file>"
 Path to input file with one target per line. Dsicovery will iterate over the lines and scan valid targets. Incompatible with stdin or -t
 
 .IP "-o  --out" </path/to/file>
