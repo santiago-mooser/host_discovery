@@ -9,8 +9,8 @@
 ### Dependencies ###
 
 * Python3
-* Required python3 modules:
-  * `sudo python3 -m pip install pyinstaller argparse`
+* (optional) Python3 modules for binary compilation:
+  * `sudo python3 -m pip install PyInstaller`
 
 ### How to run the script ##
 
